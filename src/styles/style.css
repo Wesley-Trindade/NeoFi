@@ -175,8 +175,8 @@ h1 {
     border-radius: 24px;
     padding: 12px 20px;
     font-family: var(--font-family-alexandria);
-    font-size: var( --font-size-text2);
-    
+    font-size: var(--font-size-text2);
+
 }
 
 .content-breakdown h2 {
@@ -265,7 +265,7 @@ h1 {
 
 }
 
-.content-statistics h2{
+.content-statistics h2 {
     color: var(--color-white);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-title2);
@@ -311,6 +311,101 @@ h1 {
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
 
+}
 
+.section-blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0;
 
+}
+
+.content-blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.content-blockchain span {
+    color: var(--color-green);
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    padding: 12px 20px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+
+}
+
+.content-blockchain h2 {
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title2);
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+
+.content-blockchain p {
+    color: var(--color-gray1);
+    font-size: var(--font-size-button);
+    font-family: var(--font-family-inter);
+    width: 644px;
+    text-align: center;
+    line-height: 140%;
+
+}
+
+.container-blockchain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.container-cards-blockchain {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card-blockchain {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gray4);
+    border: 1px solid var(--color-gray2);
+    gap: 24px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    
+
+}
+
+.card-blockchain div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.card-blockchain div h3 {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    color: var(--color-white);
+    font-weight: 400;
+    
+}
+
+.card-blockchain div p {
+    color: var(--color-gray1);
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+    width: 530px;
+   
 }
